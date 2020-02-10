@@ -1,6 +1,7 @@
 spring: 
   cloud:
     config:
+      override-none: true
       discovery:
         enabled: true
         service-id: config-server
